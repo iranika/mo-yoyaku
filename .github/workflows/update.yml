@@ -29,6 +29,7 @@ jobs:
           git checkout master
       # Runs a single command using the runners shell
       - name: Run a goyoyaku.ps1
+        shell: pwsh
         run: |
           pwsh goyoyaku.ps1
           git add goyoyaku.json && git commit -m "update goyoyaku.json by github actions" && git push origin master
