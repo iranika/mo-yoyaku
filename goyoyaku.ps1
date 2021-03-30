@@ -1,6 +1,6 @@
 param(
     $url = "http://clap.webclap.com/clap.php?id=momoirocode",
-    $jsonFile = "$PSScriptRoot\goyoyaku.json"
+    $jsonFile = "$PSScriptRoot\goyoyaku.json",
     $jsFile = "$PSScriptRoot\goyoyaku.js"
 )
 
