@@ -1,6 +1,7 @@
 param(
     $url = "http://clap.webclap.com/clap.php?id=momoirocode",
     $jsonFile = "$PSScriptRoot\goyoyaku.json"
+    $jsFile = "$PSScriptRoot\goyoyaku.js"
 )
 
 $ErrorActionPreference = "Stop"
@@ -23,3 +24,5 @@ if ($res.href -in $json.href){
 }
 
 $json | ConvertTo-Json | Out-File $jsonFile -Encoding utf8
+echo "goyoyaku = " | Out-File $jsFile -Encoding utf-8
+$json | ConvertTo-Json | Out-File $jsFile -Encoding utf-8 -Append
