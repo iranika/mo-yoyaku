@@ -24,5 +24,5 @@ if ($res.href -in $json.href){
 }
 
 $json | ConvertTo-Json | Out-File $jsonFile -Encoding utf8
-echo "goyoyaku = " | Out-File $jsFile -Encoding utf8
+echo "var goyoyaku = " | Out-File $jsFile -Encoding utf8
 $json | ConvertTo-Json | Out-File $jsFile -Encoding utf8 -Append
