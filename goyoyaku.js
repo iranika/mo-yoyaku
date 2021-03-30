@@ -1,4 +1,4 @@
-goyoyaku = 
+var goyoyaku = 
 [
   {
     "text": "スマホでご予約(3月)",
