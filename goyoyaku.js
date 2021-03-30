@@ -1,0 +1,26 @@
+goyoyaku = 
+[
+  {
+    "text": "スマホでご予約(3月)",
+    "href": "https://drive.google.com/file/d/1ThgXkrvkUEPnbup1uR-1ubiJgS2p_f6-/view?usp=sharing"
+  },
+  {
+    "text": "スマホでご予約(12月)",
+    "href": "https://drive.google.com/file/d/1pOqUgeL0SG4EwBRDRdCs9lgQ6T9x1glL/view?usp=sharing"
+  },
+  {
+    "text": "スマホでご予約(7月)",
+    "timestamp": "20201021",
+    "href": "https://drive.google.com/file/d/1mSLIY7be7dW8illnkGmOicHNHjwq_YsP/view?usp=sharing"
+  },
+  {
+    "text": "スマホでご予約(12月)",
+    "timestamp": "20201205",
+    "href": "https://drive.google.com/file/d/1QUCJdqzNTbRU5xePPyUhzhUBkbTrtdvN/view?usp=sharing"
+  },
+  {
+    "timestamp": "20210330",
+    "text": "スマホでご予約(3月)",
+    "href": "https://drive.google.com/file/d/1J5SxzMVJqG7Uz9Fi4bQPUWQryKQj61dm/view?usp=sharing"
+  }
+]
