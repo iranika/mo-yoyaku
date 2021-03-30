@@ -32,6 +32,6 @@ jobs:
         shell: bash
         run: |
           pwsh goyoyaku.ps1
-          (git add goyoyaku.json && git commit -m "update goyoyaku.json by github actions" && git push origin master) || echo "No updates"
+          (git add goyoyaku.json goyoyaku.js && git commit -m "update goyoyaku.json by github actions" && git push origin master) || echo "No updates"
           
           
