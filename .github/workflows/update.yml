@@ -36,3 +36,4 @@ jobs:
           (git add goyoyaku.json goyoyaku.js && git commit -m "update goyoyaku.json by github actions" && git push origin master) || echo "No updates"
           
           
+
