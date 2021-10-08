@@ -32,8 +32,8 @@ jobs:
       - name: Run a goyoyaku.ps1
         shell: bash
         run: |
+          (date > timestamp.dat) && git add timestamp.dat && git comit -m "update timestamp" && git push origin master
           pwsh goyoyaku.ps1
           (git add goyoyaku.json goyoyaku.js && git commit -m "update goyoyaku.json by github actions" && git push origin master) || echo "No updates"
-          
           
 
