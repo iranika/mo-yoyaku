@@ -37,5 +37,10 @@ var goyoyaku =
     "text": "スマホでご予約(1月)",
     "timestamp": "20220127",
     "href": "https://drive.google.com/file/d/1Pm7WUTAiabIdYpXLx_AhMzluGy8Z3ubT/view?usp=sharing"
+  },
+  {
+    "text": "着信中",
+    "href": "https://drive.google.com/file/d/1cpcfWNtyr_WNoc_uEo5WCySu-xRueGZI/view?usp=sharing",
+    "timestamp": "20220413"
   }
 ]
